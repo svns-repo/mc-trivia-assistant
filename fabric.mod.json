@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "triviaassistant",
+  "version": "${version}",
+  "name": "Trivia Assistant",
+  "description": "Singleplayer helper: detects [!] trivia questions in chat and copies the answer to your clipboard.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.triviaassistant.TriviaAssistantClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}
